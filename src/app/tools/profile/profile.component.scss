@@ -1,0 +1,38 @@
+.profile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 9;
+    background-color: rgb(29, 29, 29);
+    transition-duration: .5s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.active {
+    width: 100%;
+}
+
+.not-active {
+    width: 0%;
+}
+
+.profile-content {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid gray;
+    outline: none;
+    margin: 7px 0;
+}

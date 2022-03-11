@@ -1,0 +1,27 @@
+.nav-bar {
+    position: fixed;
+    z-index: 10;
+    height: 5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.nav-bar-left,
+.nav-bar-right {
+    height: 100%;
+}
+
+.nav-right-content {
+    justify-content: flex-end;
+}
+
+.nav-left-content,
+.nav-right-content {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    font-size: 20px;
+}

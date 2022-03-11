@@ -1,0 +1,25 @@
+#photo-upload {
+    display: none;
+}
+
+textarea {
+    font-size: 16px;
+    padding: 16px;
+    width: 250px;
+    min-height: 200px;
+    border: none;
+}
+
+.post-preview {
+    text-align: right;
+    margin-top: 1em;
+}
+
+.post-preview-image {
+    object-fit: cover;
+    object-position: center;
+    width: 150px;
+    height: 100px;
+    border: 1px dashed gray;
+    border-radius: 10px;
+}

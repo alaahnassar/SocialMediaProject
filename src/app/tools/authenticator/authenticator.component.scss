@@ -1,0 +1,28 @@
+// em = 16px
+.authenticator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.authenticator-content {
+    width: 100%;
+    padding: 1.5em;
+    max-width: 30em;
+}
+
+input {
+    width: 100%;
+    padding: 1em;
+    margin: .5em 0;
+    border: 1px solid #0000004f;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button {
+    margin: .5em;
+}
